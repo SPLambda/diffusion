@@ -4,6 +4,8 @@
 
 Name: **Lambda**
 
+Members:
+
 | Name            | Neptun code |
 | --------------- | ----------- |
 | Somorjai Márk   | FAFSAG      |
@@ -24,4 +26,12 @@ TODO: papers, GitHub repositories, blog posts, etc
 
 ## How to run it
 
-TODO: building and running the container, running your solution within the container
+Build the docker image:
+```bash
+docker build -t flower-generator .
+```
+
+Run the docker image:
+```bash
+docker run --gpus all --rm -ti flower-generator
+```

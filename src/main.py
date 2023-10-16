@@ -1,5 +1,9 @@
+import subprocess
+
+
 def main():
-    print("Lambda - Image generation with diffusion models")
+    subprocess.run(["nvidia-smi"])
+
 
 if __name__ == "__main__":
     main()
