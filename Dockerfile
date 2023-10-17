@@ -2,10 +2,9 @@
 # https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorflow/tags
 FROM nvcr.io/nvidia/tensorflow:23.09-tf2-py3
 
-# To have "nvidia-smi" available in the container
-RUN apt update && \
-    apt install nvidia-utils-535-server -y && \
-    rm -rf /var/lib/apt/lists/*
+# Install the Python packages listed in the "requirements.txt" file
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 # Set the working directory in the container
 WORKDIR /app
