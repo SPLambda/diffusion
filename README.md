@@ -14,11 +14,17 @@ Members:
 
 ## Project description
 
-TODO: short description of the project
+The goal of the project is to generate images using diffusion models. We will implement the models based on the referenced related works.
+
+We will use the datasets [Oxford 102 Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) to evaluate our models.
 
 ## Functions of the files in the repository
 
-TODO: short description of the files in the repository
+- `main.py`: this python script will contain the final code of the project (model, training, evaluation, etc.) that can be run in a containerized environment; it is dummy file for now
+- `solution.py`: we use this notebook during the development; currently, it contains data loading and preparation steps
+- `requirements.txt`: the list of the required python packages to run the code in a containerized environment
+- `Dockerfile`: the description of the Docker container
+- `README.md`: this file
 
 ## Related works
 
@@ -34,10 +40,10 @@ TODO: short description of the files in the repository
 
 Build the docker image:
 ```bash
-docker build -t flower-generator .
+docker build -t image-generator .
 ```
 
 Run the docker image:
 ```bash
-docker run --gpus all --rm -ti flower-generator
+docker run --gpus all --rm -ti image-generator
 ```
