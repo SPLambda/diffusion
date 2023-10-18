@@ -28,6 +28,8 @@ TODO: short description of the files in the repository
 
 [[3](https://keras.io/examples/generative/ddim/)] Denoising Diffusion Implicit Models by András Béres
 
+[[4](https://keras.io/examples/generative/ddpm/)] Denoising Diffusion Probabilistic Model by Aakash Kumar Nain
+
 ## How to run it
 
 Build the docker image:
