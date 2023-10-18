@@ -20,9 +20,8 @@ We will use the datasets [Oxford 102 Flower Dataset](https://www.robots.ox.ac.uk
 
 ## Functions of the files in the repository
 
-- `main.py`: this python script will contain the final code of the project (model, training, evaluation, etc.) that can be run in a containerized environment; it is dummy file for now
 - `solution.py`: we use this notebook during the development; currently, it contains data loading and preparation steps
-- `requirements.txt`: the list of the required python packages to run the code in a containerized environment
+- `requirements_nbconverter.txt` and `requirements_trainer.txt`: the list of the required python packages to run the code in a containerized environment
 - `Dockerfile`: the description of the Docker container
 - `README.md`: this file
 
