@@ -22,7 +22,11 @@ TODO: short description of the files in the repository
 
 ## Related works
 
-TODO: papers, GitHub repositories, blog posts, etc
+[[1](https://huggingface.co/blog/annotated-diffusion)] The Annotated Diffusion Model by Niels Rogge and Kashif Rasul
+
+[[2](https://arxiv.org/abs/2006.11239)] Denoising Diffusion Probabilistic Models by Jonathan Ho, Ajay Jain and Pieter Abbeel
+
+[[3](https://keras.io/examples/generative/ddim/)] Denoising Diffusion Implicit Models by András Béres
 
 ## How to run it
 

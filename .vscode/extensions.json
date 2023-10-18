@@ -1,8 +1,0 @@
-{
-    "recommendations": [
-        "ms-python.python",
-        "sonarsource.sonarlint-vscode",
-        "streetsidesoftware.code-spell-checker",
-        "usernamehw.errorlens"
-    ]
-}
