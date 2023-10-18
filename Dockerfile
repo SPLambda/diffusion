@@ -6,6 +6,9 @@ FROM nvcr.io/nvidia/tensorflow:23.09-tf2-py3
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
+# Remove the /workspace directory (it only contains some examples)
+RUN rm -rf /workspace
+
 # Set the working directory in the container
 WORKDIR /app
 
