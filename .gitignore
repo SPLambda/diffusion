@@ -1,3 +1,6 @@
+# Python environment
+.env
+
 # Jupyter
 .ipynb_checkpoints
 .virtual_documents
