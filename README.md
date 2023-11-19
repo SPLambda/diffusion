@@ -21,6 +21,7 @@ We will use the datasets [Oxford 102 Flower Dataset](https://www.robots.ox.ac.uk
 ## Functions of the files in the repository
 
 - `solution.py`: we use this notebook during the development; currently, it contains data loading and preparation steps
+- `u_net.h5`: checkpoint of the best model
 - `requirements_nbconverter.txt` and `requirements_trainer.txt`: the list of the required python packages to run the code in a containerized environment
 - `Dockerfile`: the description of the Docker container
 - `README.md`: this file
