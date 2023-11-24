@@ -7,7 +7,7 @@ Name: **Lambda**
 Members:
 
 | Name            | Neptun code |
-| --------------- | ----------- |
+|-----------------|-------------|
 | Somorjai Márk   | FAFSAG      |
 | Szommer Zsombor | MM5NOT      |
 | Telbisz Csanád  | ESV6L2      |
