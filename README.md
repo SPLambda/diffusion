@@ -39,12 +39,12 @@ We use the datasets [Oxford 102 Flower Dataset](https://www.robots.ox.ac.uk/~vgg
 
 ## How to run it
 
-Build the docker image:
+Build the trainer docker image:
 ```bash
 docker build -t image-generator .
 ```
 
-Run the docker image:
+Run the trainer docker image:
 ```bash
 docker run --gpus all --rm -ti image-generator
 ```
