@@ -1,6 +1,9 @@
 # Python environment
 .env
 
+# Outputs of the code
+outputs
+
 # Jupyter
 .ipynb_checkpoints
 .virtual_documents

@@ -46,5 +46,5 @@ docker build -t image-generator .
 
 Run the trainer docker image:
 ```bash
-docker run --gpus all --rm -ti image-generator
+docker run --gpus all --rm -ti -v $(pwd)/outputs:/app/outputs image-generator
 ```
