@@ -14,18 +14,17 @@ Members:
 
 ## Project description
 
-The goal of the project is to generate images using diffusion models. We have implemented the models based on the referenced related works.
+The goal of the project is to generate images using diffusion models. A deployment of our image generating model can be tried out on [HuggingFace](https://huggingface.co/spaces/Melidon/flower-generation).
 
-We use the datasets [Oxford 102 Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) to evaluate our models.
+We have implemented the models based on the referenced related works. We use the datasets [Oxford 102 Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) to evaluate our models.
 
 ## Functions of the files in the repository
 
 - `solution.py`: the notebook containing the solution (model, training process, evaluation)
-- `u_net.h5`: checkpoint of the best model
 - `requirements_nbconverter.txt` and `requirements_trainer.txt`: the list of the required python packages to run the code in a containerized environment
 - `Dockerfile`: the description of the Docker container
+- `diffusion.pdf`: documentation of the project
 - `README.md`: this file
-- `TODO`: documentation
 
 ## Related works
 
