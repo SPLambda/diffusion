@@ -23,7 +23,8 @@ We have implemented the models based on the referenced related works. We use the
 - `solution.py`: the notebook containing the solution (model, training process, evaluation)
 - `requirements_nbconverter.txt` and `requirements_trainer.txt`: the list of the required python packages to run the code in a containerized environment
 - `Dockerfile`: the description of the Docker container
-- `diffusion.pdf`: documentation of the project
+- `documentation.pdf`: documentation of the project
+- `presentation.pptx` and `presentation.pdf`: presentation of the project for the exam
 - `README.md`: this file
 
 ## Related works
